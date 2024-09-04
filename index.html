@@ -7,18 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Personal Portfolio</title>
 
-
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-
   <link rel="stylesheet" href="./assets/css/style.css">
-
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
 
@@ -157,6 +151,10 @@
           </li>
 
           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
 
@@ -164,9 +162,9 @@
 
       </nav>
 
-
-
-
+      <!--
+        - #ABOUT
+      -->
 
       <article class="about  active" data-page="about">
 
@@ -368,8 +366,9 @@
 
       </article>
 
-
-
+      <!--
+        - #RESUME
+      -->
 
       <article class="resume" data-page="resume">
 
@@ -601,8 +600,9 @@
 
       </article>
 
-
-
+      <!--
+        - #PORTFOLIO
+      -->
 
       <article class="portfolio" data-page="portfolio">
 
@@ -645,7 +645,7 @@
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/nirajbhagvat/Guess-The-Number-Game/releases/tag/v1.0">
+              <a href="https://github.com/nirajbhagvat/Guess-The-Number-Game/releases/tag/v1.0" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -663,7 +663,7 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/nirajbhagvat/Library-Management-GUI-App/releases/tag/v2.0">
+              <a href="https://github.com/nirajbhagvat/Library-Management-GUI-App/releases/tag/v2.0" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -681,7 +681,7 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="https://github.com/nirajbhagvat/My-Calculator-Application/releases/tag/v1.0.0">
+              <a href="https://github.com/nirajbhagvat/My-Calculator-Application/releases/tag/v1.0.0" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
@@ -697,6 +697,57 @@
 
               </a>
             </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://nirajbhagwat.blogspot.com/2024/09/deploying-my-portfolio-website-on-aws.html" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Deploying My Portfolio Website on AWS: A Complete Guide Using S3 and CloudFront" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">AWS</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-09-04">Aug 04, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Deploying My Portfolio Website on AWS:</h3>
+
+                  <p class="blog-text">
+                    A Complete Guide Using S3 and CloudFront.
+                  </p>
+
+                </div>
+
+              </a>
+              
+              <!-- 
+              Space for adding more blogs
+              -->
 
           </ul>
 
