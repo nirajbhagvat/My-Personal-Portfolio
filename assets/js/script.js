@@ -157,3 +157,12 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// JavaScript Code
+const counter = document.querySelector(".counter-number");
+async function updateCounter() {
+let response = await fetch("https://ahlfc4csmxl6ttcoizt54wdrgi0qdgqm.lambda-url.ap-south-1.on.aws/");
+let data = await response.json();
+counter.innerHTML = 'Profile Views: ' + data;
+}
+updateCounter();
