@@ -36,7 +36,5 @@ The **Cloud Resume Challenge** showcases a resume website hosted on AWS, with dy
 
 👉 [Blog Post: Automating Deployment with GitHub Actions](https://nirajbhagwat.blogspot.com/2024/10/automating-frontend-deployment-with.html)
 
-## [Live Demo 🔗](https://d2rx5go2oq3any.cloudfront.net/)
-
 
 
